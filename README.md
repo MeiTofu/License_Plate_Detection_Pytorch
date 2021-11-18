@@ -1,3 +1,4 @@
+You should konw! The author: (https://github.com/xuexingyu24/License_Plate_Detection_Pytorch)
 # License_Plate_Detection_Pytorch
 This is a two stage lightweight and robust license plate recognition in MTCNN and LPRNet using Pytorch. [MTCNN](https://arxiv.org/abs/1604.02878v1) is a very well-known real-time detection model primarily designed for human face recognition. It is modified for license plate detection. [LPRNet](https://arxiv.org/abs/1806.10447), another real-time end-to-end DNN, is utilized for the subsquent recognition. This network is attributed by its superior performance with low computational cost without preliminary character segmentation. The [Spatial Transformer Layer](https://arxiv.org/abs/1506.02025) is embeded in this work to allow a better characteristics for recognition. The recognition accuracy is up to **99%** on CCPD base dataset with ~ **80 ms/image** on Nivida Quadro P4000. Here is the illustration of the proposed pipeline:
 
